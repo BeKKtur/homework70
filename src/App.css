@@ -1,7 +1,48 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+.image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.cards {
+  border: 1px solid black;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.modall {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1231;
+  background-color: rgba(0,0,0,.3);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal_box {
+  max-width: 1000px;
+  padding: 45px;
+  z-index: 1;
+  background-color: white;
+  text-align: end;
+}
+
+.modal_card {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
